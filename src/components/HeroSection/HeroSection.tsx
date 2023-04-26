@@ -54,6 +54,7 @@ const HeroSection: React.FC<PropsWithChildren<Props>> = ({ className, children }
           </div>
         </div>
       </Container>
+      <div id="seated-55fdf2c0" data-artist-id="204e120f-e3fc-47f8-8bbf-2f6907a0c540" data-css-version="3"></div>
     </section>
   );
 }
