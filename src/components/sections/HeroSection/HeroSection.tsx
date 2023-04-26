@@ -1,5 +1,6 @@
 import React, { PropsWithChildren } from 'react';
-import Container from '../Container/Container';
+import Container from '../../common/Container/Container';
+import EmphasiseText from '../../common/EmphasiseText/EmphasiseText';
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
 }
@@ -32,7 +33,7 @@ const HeroSection: React.FC<PropsWithChildren<Props>> = ({ className, children }
             </div>
 
             <p className="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-            Dreamboat is a new band from Newcastle/Sydney and the Central Coast. Their sound combines the energy of Post-Hardcore bands like Title Fight, Basement, and Citizen with an Australian twist that's similar to Dear Seattle and Luca Brasi. Although the members have roots in hardcore, Dreamboat's music is fresh, innovative, and perfect for fans of that Aussie sound. With a two-track EP on the way, Dreamboat is a band to watch in 2023.
+            Dreamboat is a new band from Newcastle/Sydney and the Central Coast. Their sound combines the energy of Post-Hardcore bands like Title Fight, Basement, and Citizen with an Australian twist that's similar to Dear Seattle and Luca Brasi. Although the members have roots in hardcore, Dreamboat's music is fresh, innovative, and perfect for fans of that Aussie sound. Their two-track EP <EmphasiseText>"Lights Out // Won't Stay Long"</EmphasiseText>was released in April 2023, Dreamboat is a band to watch in 2023.
             </p>
 
             {/* <div className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
@@ -44,12 +45,12 @@ const HeroSection: React.FC<PropsWithChildren<Props>> = ({ className, children }
           <div className="lg:h-full flex">
             <div className="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
               <div className="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl"></div>
-              <div className="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
+              <div className="absolute w-full h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
                 <img src="/images/promo_stairs.jpeg" alt="In studio" width="500" height="auto" loading="lazy" className="w-full h-full rounded-2xl object-cover" />
               </div>
-              <div className="absolute -translate-y-1/2 top-1/2 h-[calc(60%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
+              {/* <div className="absolute -translate-y-1/2 top-1/2 h-[calc(60%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
                 <img src="/images/cover_small.jpg" alt="Happy in studio" width="200" height="auto" loading="lazy" className="w-full h-full rounded-2xl object-cover"/>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
