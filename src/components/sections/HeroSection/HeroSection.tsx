@@ -13,7 +13,7 @@ const HeroSection: React.FC<PropsWithChildren<Props>> = ({ className, children }
           className="h-24 w-2/3 bg-gradient-to-br from-primary opacity-20 blur-2xl dark:from-[#570cac] dark:invisible dark:opacity-40"
         ></div>
         <div
-          className="h-20 w-3/5 bg-gradient-to-r from-[#8cd66a] opacity-40 blur-2xl dark:from-[#670ccf] dark:opacity-40"
+          className="h-20 w-3/5 bg-gradient-to-r from-primary opacity-40 blur-2xl dark:from-[#670ccf] dark:opacity-40"
         ></div>
       </div>
       <Container className="relative">
@@ -27,13 +27,13 @@ const HeroSection: React.FC<PropsWithChildren<Props>> = ({ className, children }
             <div className="text-center lg:text-left">
               {/* <span className="px-2 py-1 rounded-md bg-gray-100 dark:bg-body text-primary ">New season available</span> */}
               <h1 className="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
-                <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">Dreamboat</span><br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#AB8B84]">Dreamboat</span><br />
                 Energetic Post-Hardcore
               </h1>
             </div>
 
             <p className="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-            Dreamboat is a new band from Newcastle/Sydney and the Central Coast. Their sound combines the energy of Post-Hardcore bands like Title Fight, Basement, and Citizen with an Australian twist that's similar to Dear Seattle and Luca Brasi. Although the members have roots in hardcore, Dreamboat's music is fresh, innovative, and perfect for fans of that Aussie sound. Their two-track EP <EmphasiseText>"Lights Out // Won't Stay Long"</EmphasiseText>was released in April 2023, Dreamboat is a band to watch in 2023.
+            Dreamboat is a new band from Newcastle/Sydney and the Central Coast. Their sound combines the energy of Post-Hardcore bands like Title Fight and Basemen with an Australian twist that's similar to Dear Seattle and Luca Brasi. Although the members have roots in hardcore, Dreamboat's music is fresh, innovative, and perfect for fans of that Aussie sound. Their two-track EP <EmphasiseText>"Lights Out // Won't Stay Long"</EmphasiseText> was released in April 2023, Dreamboat is a band to watch in 2023.
             </p>
 
             {/* <div className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">

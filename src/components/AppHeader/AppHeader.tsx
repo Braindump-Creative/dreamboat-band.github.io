@@ -7,11 +7,11 @@ const AppHeader: React.FC<{}> = () => {
       <Container className='relative'>
         <nav className="flex items-center justify-between w-full relative">
           <div className="inline-flex relative bg-inherit">
-            <span className="flex">
+            {/* <span className="flex">
                 <span className="w-3 h-6 rounded-l-full flex bg-primary"></span>
                 <span className="w-3 h-6 rounded-r-full flex bg-[#f88fc2] mt-2"></span>
-            </span>
-            <span className="text-lg text-gray-700 dark:text-white">DREAMBOAT</span>
+            </span> */}
+            <span className="text-lg text-gray-700 dark:text-white font-semibold tracking-wider">DREAMBOAT</span>
           </div>
         </nav>
       </Container>

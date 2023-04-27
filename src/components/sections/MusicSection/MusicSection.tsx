@@ -13,14 +13,14 @@ const MusicSection: React.FC<PropsWithChildren<Props>> = ({ className, children 
     <section className="pt-20 md:pt-24">
       <Container>
           <div className="grid md:grid-cols-2 gap-10 xl:gap-14 relative">
-              <div className="flex md:h-full ">
+              <div className="flex md:h-full order-last md:order-1">
                   <div
                       className="w-full md:h-full rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
                       <img src="/images/cover_small.jpg" alt="EP Cover" width="300"
                           className="w-full h-full object-fit rounded-2xl" />
                   </div>
               </div>
-              <div className="md:py-2 lg:py-4 relative">
+              <div className="md:py-2 lg:py-4 relative md:order-last">
                   <div className="absolute right-0 top-0 h-full w-full flex justify-end">
                       <span className="flex opacity-20">
                           <span className="w-16 h-32 rounded-l-full flex bg-primary blur-2xl"></span>
@@ -37,8 +37,8 @@ const MusicSection: React.FC<PropsWithChildren<Props>> = ({ className, children 
 
                       </p>
                       <div className='flex flex-col gap-4 py-4'>
-                        <Spotify wide link="https://open.spotify.com/track/2gP5jqaetsPlKQUm1PquA9?si=938b6f8149054b84"/>
-                        <Spotify wide link="https://open.spotify.com/track/6Kvycbzgsgxx1iyBL8BKM9?si=a663ef01e3a04ad7"/>
+                        <Spotify wide link="https://open.spotify.com/track/1zQku0f8MayGLAnt14bzYd?si=64c50dcb35774a27"/>
+                        <Spotify wide link="https://open.spotify.com/track/3evE9yQHDGMiZJ3ZcsxfS8?si=465117131cd64c09"/>
                       </div>
                       {/*
                       <div className="grid grid-cols-3 gap-4 max-w-lg pt-8">
