@@ -33,7 +33,7 @@ const HeroSection: React.FC<PropsWithChildren<Props>> = ({ className, children }
             </div>
 
             <p className="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-            Dreamboat is a new band from Newcastle/Sydney and the Central Coast. Their sound combines the energy of Post-Hardcore bands like Title Fight and Basemen with an Australian twist that's similar to Dear Seattle and Luca Brasi. Although the members have roots in hardcore, Dreamboat's music is fresh, innovative, and perfect for fans of that Aussie sound. Their two-track EP <EmphasiseText>"Lights Out // Won't Stay Long"</EmphasiseText> was released in April 2023, Dreamboat is a band to watch in 2023.
+            Dreamboat is a new band from Newcastle/Sydney and the Central Coast. Their sound combines the energy of Post-Hardcore bands like Title Fight and Basement with an Australian twist that's similar to Dear Seattle and Luca Brasi. Although the members have roots in hardcore, Dreamboat's music is fresh, innovative, and perfect for fans of that Aussie sound. Their two-track EP <EmphasiseText>"Lights Out // Won't Stay Long"</EmphasiseText> was released in April 2023, Dreamboat is a band to watch in 2023.
             </p>
 
             {/* <div className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
