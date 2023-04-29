@@ -62,7 +62,7 @@ const MusicSection: React.FC<PropsWithChildren<Props>> = ({ className, children 
                           </div>
                       </div> */}
                       <div className="pt-4 flex">
-                          <LinkButton to="https://open.spotify.com/artist/1MNEjROoaqBQdPfqFXoskt?si=Zht002qSQCSWpMgzmdHOqg" variant='primary' target="_blank">
+                          <LinkButton to="https://open.spotify.com/artist/6jRAW50NtSMlUgYB1wh8mu?si=qRImzPPNTRuc-A7zLkwQzA" variant='primary' target="_blank">
                               Hear more
                           </LinkButton>
                       </div>
